@@ -1,0 +1,50 @@
+name: blackcoffer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.3.0
+  cloud_firestore: ^4.1.0
+  firebase_storage: ^11.0.6
+  image_picker: ^0.8.6
+  video_thumbnail: ^0.5.3
+  pinput: ^2.2.16
+  firebase_auth: ^4.1.3
+  video_player: ^2.4.7
+  geolocator: ^9.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/OS/
+
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OS/OpenSans-Regular.ttf
+        - asset: assets/fonts/OS/OpenSans-Bold.ttf
+          weight: 800
